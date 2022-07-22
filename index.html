@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style/style.css">
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td colspan="3"><input type="text" id="result" class="Displaybox" disabled /></td>
+
+            <!-- clearscreen function onclick -->
+            <td><input type="button" value="C" onclick="clearscreen()" id="clear" class="btn special"></td>
+        </tr>
+
+        <!-- calculator buttons -->
+
+        <tr>
+            <td><input type="button" value="1" onclick="display('1')" class="btn"></td>
+            <td><input type="button" value="2" onclick="display('2')" class="btn"></td>
+            <td><input type="button" value="3" onclick="display('3')" class="btn"></td>
+            <td><input type="button" value="/" onclick="display('/')" class="btn"></td>
+
+        </tr>
+
+        <tr>
+            <td><input type="button" value="4" onclick="display('4')" class="btn"></td>
+            <td><input type="button" value="5" onclick="display('5')" class="btn"></td>
+            <td><input type="button" value="6" onclick="display('6')" class="btn"></td>
+            <td><input type="button" value="-" onclick="display('-')" class="btn"></td>
+
+        </tr>
+
+        <tr>
+            <td><input type="button" value="7" onclick="display('7')" class="btn"></td>
+            <td><input type="button" value="8" onclick="display('8')" class="btn"></td>
+            <td><input type="button" value="9" onclick="display('9')" class="btn"></td>
+            <td><input type="button" value="+" onclick="display('+')" class="btn"></td>
+
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="display('.')" class="btn"></td>
+            <td><input type="button" value="0" onclick="display('0')" class="btn"></td>
+            <td><input type="button" value="=" onclick="calculate()" class="btn special"></td>
+            <td><input type="button" value="*" onclick="display('*')" class="btn"></td>
+
+        </tr>
+    </table>
+
+
+
+    <div class="slideshow">
+
+        <div class="slide" id="slider">
+            <img src="Picture/Assassin's Creed Valhalla.jpg" alt="" class="pics">
+        </div>
+        <div class="slide" id="slider">
+            <img src="Picture/assassins creed brother hood.jpg" alt="" class="pics">
+        </div>
+        <div class="slide" id="slider">
+            <img src="Picture/assassins creed.jpg" alt="" class="pics">
+        </div>
+
+
+    </div>
+
+    <button id="next" class="btn" onclick="btn(-1)">Prev</button>
+    <button id="next" class="btn" onclick="btn(1)">Next</button>
+    
+
+    <script src="Script/app.js"></script>
+</body>
+
+</html>

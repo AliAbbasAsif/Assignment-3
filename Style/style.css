@@ -1,0 +1,42 @@
+.btn {
+    background-color: crimson;
+    padding: 25px;
+    font-size: 20px;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    color: aliceblue;
+}
+#result{
+    font-size: 20px;
+}
+.Displaybox {
+    height: 45px;
+    padding-right: 15px;
+    background-color: gray;
+    color: aliceblue;
+}
+
+.special {
+    background-color: blueviolet;
+}
+
+table {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 12px;
+    border: none;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.slideshow{
+   
+    width: 75%;
+    margin: 0 auto;
+background-color: gray;
+padding: 20px;
+}
+.pics{
+    width: 100%;
+}
